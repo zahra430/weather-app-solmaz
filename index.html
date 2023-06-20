@@ -20,11 +20,58 @@
   </head>
   <body>
     <div class="container">
-      <form>
-        <input type="search" placeholder="Type a City..." />
-        <input type="submit" value="Search" class="btn btn-primary w-100" />
-      </form>
-      <h1>Tabriz</h1>
+      <div class="weather-app">
+        <form class="mb-3">
+          <div class="row">
+            <div class="col-9">
+              <input
+                type="search"
+                placeholder="Type a City..."
+                class="form-control"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="Search"
+                class="btn btn-primary w-100"
+              />
+            </div>
+          </div>
+        </form>
+        <div class="overview">
+          <h1>Tabriz</h1>
+          <ul>
+            <li>Last updated: Wednesday 00:15</li>
+            <li>Clear Sky</li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <img
+              src="http://openweathermap.org/img/wn/01d@2x.png"
+              alt="sunny"
+            />
+            <span><strong>12</strong> </span>
+            <span> °C|<a href="#">°F</a> </span>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Humidity:54%</li>
+              <li>Wind:26 km/h</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <small>
+        <a
+          href="https://github.com/zahra430/weather-app-solmaz"
+          target="_blank"
+        >
+          Open-source code</a
+        >
+        by Zahra Hosseingholipour
+      </small>
     </div>
 
     <script src="src/app.js"></script>

@@ -2,3 +2,6 @@ body {
   margin: 0 auto;
   max-width: 600px;
 }
+.weather-app {
+  padding: 20px;
+}
